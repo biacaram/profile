@@ -4,6 +4,12 @@ body {
     color: #243038;
     font-size: 15px;
 }
+
+.container {
+    margin: 40px auto;
+    width: 700px;
+}
+
 h1 {
     color: #44a57e;
     font-size: 27px;
@@ -61,7 +67,7 @@ i {
 .card {
     text-align: center;
     background-color:  #f8f6ed;
-    margin: 30px 300px 30px 300px;
+    margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 30px;
     border-radius: 3px;
@@ -79,6 +85,7 @@ i {
 .fab:hover {
     color: #99302a;
 }
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
